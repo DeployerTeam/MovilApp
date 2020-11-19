@@ -1,3 +1,8 @@
 <resources>
-    <string name="app_name">AppetMovilApp</string>
+    <string name="app_name">AppetMovil</string>
+    <string name="email">Email</string>
+    <string name="password">Contraseña</string>
+    <string name="login">Iniciar Sesión</string>
+    <string name="confirmPassword">Confirmar contraseña</string>
+    <string name="phone">Teléfono</string>
 </resources>
