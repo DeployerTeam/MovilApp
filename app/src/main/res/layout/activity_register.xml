@@ -8,7 +8,6 @@
     tools:ignore="UseSwitchCompatOrMaterialXml"
     android:background="@color/gray">
 
-
     <ImageView
         android:id="@+id/imageView"
         android:layout_width="348dp"
@@ -20,8 +19,54 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="240dp"
+        android:hint="@string/app_name"
+        android:text="@string/app_name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:text="Registrate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="HardcodedText,MissingConstraints"
+        tools:layout_editor_absoluteY="290dp" />
+
     <EditText
-        android:id="@+id/editTextTextPersonName4"
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:background="@drawable/custom_input"
+        android:drawableLeft="@drawable/custom_email_icon"
+        android:drawablePadding="12dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:paddingStart="12dp"
+        android:paddingEnd="12dp"
+        android:text="@string/email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="340dp"
+        tools:ignore="MissingConstraints" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName2"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginStart="25dp"
@@ -29,19 +74,19 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="25dp"
         android:layout_marginRight="25dp"
-        android:drawableStart="@drawable/custom_phone_icon"
+        android:drawableStart="@drawable/custom_lock_icon"
         android:paddingStart="12dp"
         android:paddingEnd="12dp"
         android:drawablePadding="12dp"
         android:background="@drawable/custom_input"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/phone"
-        android:visibility="visible"
+        android:text="@string/password"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3"
-        android:drawableLeft="@drawable/ic_phone_icon" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
+        android:drawableLeft="@drawable/ic_lock" />
+
 
     <EditText
         android:id="@+id/editTextTextPersonName3"
@@ -66,7 +111,7 @@
         android:drawableLeft="@drawable/ic_lock" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName2"
+        android:id="@+id/editTextTextPersonName4"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:layout_marginStart="25dp"
@@ -74,63 +119,19 @@
         android:layout_marginTop="24dp"
         android:layout_marginEnd="25dp"
         android:layout_marginRight="25dp"
-        android:drawableStart="@drawable/custom_lock_icon"
+        android:drawableStart="@drawable/custom_phone_icon"
         android:paddingStart="12dp"
         android:paddingEnd="12dp"
         android:drawablePadding="12dp"
         android:background="@drawable/custom_input"
         android:ems="10"
         android:inputType="textPersonName"
-        android:text="@string/password"
+        android:text="@string/phone"
+        android:visibility="visible"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName"
-        android:drawableLeft="@drawable/ic_lock" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="240dp"
-        android:hint="@string/app_name"
-        android:text="@string/app_name"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/editTextTextPersonName"
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:layout_marginStart="25dp"
-        android:layout_marginLeft="25dp"
-        android:layout_marginEnd="25dp"
-        android:layout_marginRight="25dp"
-        android:background="@drawable/custom_input"
-        android:drawableLeft="@drawable/custom_email_icon"
-        android:drawablePadding="12dp"
-        android:ems="10"
-        android:inputType="textPersonName"
-        android:paddingStart="12dp"
-        android:paddingEnd="12dp"
-        android:text="@string/email"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:layout_editor_absoluteY="340dp" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="25dp"
-        android:layout_marginLeft="25dp"
-        android:text="Registrate"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="HardcodedText,MissingConstraints"
-        tools:layout_editor_absoluteY="290dp" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName3"
+        android:drawableLeft="@drawable/ic_phone_icon" />
 
     <Switch
         android:id="@+id/switch1"
