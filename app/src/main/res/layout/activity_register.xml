@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".register.RegisterActivity"
     tools:ignore="UseSwitchCompatOrMaterialXml"
-    android:background="@color/gray">
+    android:background="@color/gray"
+    >
 
     <ImageView
         android:id="@+id/imageView"
