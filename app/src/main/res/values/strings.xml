@@ -5,4 +5,6 @@
     <string name="login">Iniciar Sesión</string>
     <string name="confirmPassword">Confirmar contraseña</string>
     <string name="phone">Teléfono</string>
+    <string name="open"></string>
+    <string name="close"></string>
 </resources>
