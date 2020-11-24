@@ -43,10 +43,13 @@ public class NavbarActivity extends AppCompatActivity {
                     Toast.makeText(NavbarActivity.this,"Login",Toast.LENGTH_SHORT).show();
                     Intent login = new Intent(NavbarActivity.this, LoginActivity.class);
                     startActivity(login);
+
+
                 }else if(id == R.id.signup){
                     Toast.makeText(NavbarActivity.this,"Register",Toast.LENGTH_SHORT).show();
                     Intent signup = new Intent(NavbarActivity.this,RegisterActivity.class);
                     startActivity(signup);
+
                 }
                 return true;
             }

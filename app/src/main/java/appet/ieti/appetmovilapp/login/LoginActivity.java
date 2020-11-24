@@ -5,8 +5,9 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 import appet.ieti.appetmovilapp.R;
+import appet.ieti.appetmovilapp.navbar.NavbarActivity;
 
-public class LoginActivity extends AppCompatActivity {
+public class LoginActivity extends NavbarActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
